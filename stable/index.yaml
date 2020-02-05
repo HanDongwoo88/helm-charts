@@ -1,9 +1,19 @@
 apiVersion: v1
 entries:
+  dotnet-helm:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2020-02-06T06:29:46.11953+09:00"
+    description: A Helm chart for Kubernetes
+    digest: e663f53de477d4fed05ce399792529fe40a5e836b7b941e62bc1da00a30fc371
+    name: dotnet-helm
+    urls:
+    - dotnet-helm-0.1.0.tgz
+    version: 0.1.0
   redis:
   - apiVersion: v1
     appVersion: 5.0.7
-    created: "2020-02-06T05:49:01.2948677+09:00"
+    created: "2020-02-06T06:29:46.1205374+09:00"
     description: Open source, advanced key-value store. It is often referred to as
       a data structure server since keys can contain strings, hashes, lists, sets
       and sorted sets.
@@ -26,4 +36,4 @@ entries:
     urls:
     - redis-10.4.1.tgz
     version: 10.4.1
-generated: "2020-02-06T05:49:01.2934134+09:00"
+generated: "2020-02-06T06:29:46.1189387+09:00"
