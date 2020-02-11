@@ -1,4 +1,4 @@
 # helm-charts Repository
-Kubernetes CI/CD 
-ASP.NET CORE APPLICATION
+Kubernetes CI/CD   
+dotnet-helm - ASP.NET CORE APPLICATION
  
