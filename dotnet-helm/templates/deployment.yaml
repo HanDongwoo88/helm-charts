@@ -12,8 +12,6 @@ spec:
       app.kubernetes.io/instance: {{ .Release.Name }}
   template:
     metadata:
-      annotations:
-        rollme: {{ randAlphaNum 5 | quote }}
       labels:
         app.kubernetes.io/name: {{ include "dotnet-helm.name" . }}
         app.kubernetes.io/instance: {{ .Release.Name }}
