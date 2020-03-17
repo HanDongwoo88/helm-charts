@@ -6,7 +6,7 @@ replicaCount: 3
 
 image:
   repository: dongwoo/devops
-  tag: 7.0.0
+  tag: 8.0.0
   pullPolicy: Always
 
 imagePullSecrets: []
